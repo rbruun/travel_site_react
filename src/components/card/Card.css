@@ -1,0 +1,41 @@
+#spain {
+  background-image: url("../assets/images/spain_flag.svg")
+}
+
+#italy {
+  background-image: url("../assets/images/italy_flag.svg")
+}
+
+#aruba {
+  background-image: url("../assets/images/aruba_flag.svg")
+}
+
+#chile {
+  background-image: url("../assets/images/chile_flag.svg")
+}
+
+
+.card {
+  width: 300px;
+  height: 350px;
+  margin:5px;
+  padding-bottom: 5%;
+  background-color: white;
+  color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#allcards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}

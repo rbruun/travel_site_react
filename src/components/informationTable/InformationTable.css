@@ -1,0 +1,37 @@
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr, td, th {
+  border: 2px solid black;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+#travel-table {
+  color: black;
+  background-color: white;
+}
+#travel-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 800px) {
+  .bird {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .population {
+    display: none;
+  }
+}
